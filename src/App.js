@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import HomePage from './components/HomePage';
 import ServicePage from './components/ServicePage';
-import Navbar from './components/Navbar';
+import Header from './components/Header'
 import Footer from './components/Footer';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
     <>
 
       <Router>
-        <Navbar/>
+        <Header/>
         <Switch>
 
           <Route exact path="/">
